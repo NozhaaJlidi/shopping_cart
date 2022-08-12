@@ -39,6 +39,7 @@ for (let i = 0; i < add.length; i++) {
         qunt[i].value++;
 
         Total()
+        calculPanier()
     }
 
     );
@@ -57,6 +58,7 @@ for (let i = 0; i < minus.length; i++) {
             qunt[i].value--;
         }
         Total()
+        calculPanier()
     });
 
 
@@ -79,3 +81,13 @@ for (let i = 0; i < minus.length; i++) {
 
 
 /*nmbres of items  dans une panier*/
+let bag= document.getElementsByClassName('bi-bag-fill')
+let inputs=document.querySelectorAll('#shop > div > div > div > div > input')
+let redFlag =document.getElementById('red-flag')
+function calculPanier(){
+    x=0
+for(let i=0; i<inputs.length;i++){
+    x=x+parseInt(inputs[i].value)
+    redFlag.innerText=x
+}
+console.log(x)}

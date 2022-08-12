@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Parfois</title>
+  <title>Chapeaux</title>
   <link rel="stylesheet" href="style.css" />
   <!-- links to icons from boostrap -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
@@ -13,19 +13,262 @@
 
 <body>
   <!-- Navbar Section-->
-  <div id="navbar" class="navbar">
-    <ul id="ul_chapeau">
-      <h3 id="chapeaux">Chapeaux</h3>
-      <li></li>
-      <li></li>
-    </ul>
-    <img id="logo" src="images/Parfois.png" alt="parfois" />
-
-    <div class="cart">
-      <i class="bi bi-bag-fill"></i>
-      <div class="cartAmount">(0)</div>
+  <div class="nav">
+    <div class="menu">
+        <div class="vide">
+            
+            <i class="bi bi-search"></i>
+            
+            <button id="button1">
+                
+                <input class="input_rechercher"type="text" id="q" name="q" value="" placeholder="Rechercher" autocomplete="off">
+        </button>
+        <hr>
+        </div>
+        <img id="logo" src="images/Parfois.png" alt="parfois" width="175" height="80" />
+        <ul id="top">
+            <li>NEWSLETTER</li>
+            <li>CONTACT</li>
+            <li><i class="bi bi-person"></i></li>
+            <i class="bi bi-heart-fill"></i>
+            <button class="bag">
+            <span id="red-flag">0</span>
+            <i class="bi bi-bag-fill"> </i>
+            </button>
+           
+        </ul>
     </div>
-  </div>
+    <div class="menu1">
+        <ul id="menu1">
+            <li>NEW IN</li>
+
+            <!-- liste des sacs -->
+            <li>
+                SACS
+                <div class="level2">
+                    <div class="interne1">
+                        <ul id="interne">
+                            <li>Tout voir</li>
+                            <li>Sacs Personnalisables</li>
+                            <li>Rafia</li>
+                            <li>Sacs De Soirée</li>
+                            <li>Sacs A Bandoulière</li>
+                            <li>Sacs A Dos</li>
+                        </ul>
+                    </div>
+                    <div class="interne2">
+                        <ul id="interne">
+                            <li>Shoppers</li>
+                            <li>Sacs Portés Main</li>
+                            <li>Sacs Portés Épaule</li>
+                            <li>Grands Sacs</li>
+                            <li>Petitd Sacs</li>
+                            <li>Clutches</li>
+                        </ul>
+                    </div>
+                    <div class="interne3">
+                        <ul id="interne">
+                            <li>Valises</li>
+                            <li>Sacs Pour Smatphone</li>
+                            <li> Collection De Bureau <span style="color: red ">NEW</span></li>
+                            <li>Sacs Ordinateurs</li>
+                            <li>Trousses Et Étuis</li>
+                            <li>Boite À Déjeuner</li>
+                        </ul>
+                    </div>
+                    <div class="interne4">
+                        <ul id="interne">
+                            <li>Sacs Banane</li>
+                            <li>Sacs Matelassés</li>
+                            <li> Chariots De Courses</li>
+                            <li>Sacs Matériaux Recyclés</li>
+
+                        </ul>
+
+
+                    </div>
+                </div>
+            </li>
+
+
+            <!-- list de bijoux -->
+
+            <li>BIJOUX
+
+
+                <div class="level2">
+                    <div class="interne1">
+                        <ul id="interne">
+                            <li>Tout voir</li>
+                            <li>Acier Innoxydable</li>
+                            <li>Bijoux Argent 925</li>
+                            <li>Bijoux Soirée</li>
+                            <li>Trend Collection <span style="color: red ">NEW</span></li>
+                            <li> Boucles D'Oreilles</li>
+                        </ul>
+                    </div>
+                    <div class="interne2">
+                        <ul id="interne">
+                            <li>Colliers</li>
+                            <li>Bracelets</li>
+                            <li>Bracelets De Cheville</li>
+                            <li>Bagues</li>
+                            <li>Broches</li>
+                            <li>Basiques</li>
+                        </ul>
+                    </div>
+                    <div class="interne3">
+                        <ul id="interne">
+                            <li>Stacking</li>
+                            <li>Initiales</li>
+                            <li>Bijoux Personnalisables</li>
+
+                        </ul>
+                    </div>
+                </div>
+
+
+
+            </li>
+            <li>VETEMENTS
+                <div class="level2">
+                    <div class="interne1">
+                        <ul id="interne">
+                            <li>Tout voir</li>
+                            <li>Wedding Collection</li>
+                            <li>Robes</li>
+                            <li>Top & T-Shirts</li>
+                            <li>Chemises & Kiminos</li>
+                            <li>jupes</li>
+                        </ul>
+                    </div>
+                    <div class="interne2">
+                        <ul id="interne">
+                            <li>Ponchos & Kiminos</li>
+                            <li>Blazer</li>
+                            <li>Manteaux</li>
+                            <li>Sweat-Shirts</li>
+                            <li>Shorts</li>
+                            <li>Pantalons</li>
+                        </ul>
+                    </div>
+                    <div class="interne3">
+                        <ul id="interne">
+                            <li>Combinaison </li>
+                            <li>Pigiami</li>
+                            <li>Maillots De Bain</li>
+                            <li>Pulls</li>
+                            <li>Maille</li>
+                            <li>Paréos</li>
+                        </ul>
+                    </div>
+
+                </div>
+
+
+
+            </li>
+
+            <!-- liste des chaussures -->
+            <li>CHAUSSURES
+
+                <div class="level2">
+                    <div class="interne1">
+                        <ul id="interne">
+                            <li>Tout voir</li>
+                            <li>Baskets</li>
+                            <li>Sandales</li>
+                            <li>Espadrilles</li>
+                            <li>Ballerines</li>
+                            <li>Chaussures Plates</li>
+                            <li>Chaussures À Talons</li>
+                            <li>Limited Edition</li>
+                        </ul>
+                    </div>
+            </li>
+            <!-- liste des Portefeuilles -->
+            <li>PORTEFEUILLES
+                <div class="level2">
+                    <ul id="interne">
+                        <li>Tout voir</li>
+                        <li>Portefeuilles</li>
+                        <li>Porte-Monnaie</li>
+                        <li>Porte-Carte</li>
+                        <li>Sac Multi-Usages</li>
+                        <li>Sacs Pour Smartphone</li>
+                    </ul>
+                </div>
+            </li>
+            <!-- liste des montres -->
+            <li>MONTRE
+                <div class="level2">
+                    <ul id="interne">
+                        <li>Tout voir</li>
+                        <li>Montre Dqigitales</li>
+                        <li>Montre En Acier</li>
+                        <li>Bracelet Maille Milanaise</li>
+                    </ul>
+                </div>
+            </li>
+            <!-- liste des accesoires -->
+            <li>ACCESOIRES
+
+                <div class="level2">
+                    <ul id="interne">
+                        <li>Tout voir</li>
+                        <li>Accesoires De Cheveux</li>
+                        <li>Accesoires Téléphones Portables</li>
+                        <li>Écharpes</li>
+                        <li>Lunettes</li>
+                        <li>Porte-Clés</li>
+                        <li>Chapeaux</li>
+                        <li>Évantail</li>
+                        <li>Ceintures</li>
+                        <li>Parapluies</li>
+                    </ul>
+                </div>
+            </li>
+            <!-- liste des stories-->
+            <li>STORIES
+
+                <div class="level2 " >
+                    <ul id="interne">
+                        <li>Trend Collection</li>
+                        <li>It Bag Season</li>
+                        <li>Summer Swim'22</li>
+                        <li>Splash</li>
+                        <li>SS22</li>
+                    </ul>
+
+                    <div class="internef">
+                        <img id="interne_storie" src="images/trend-story.jpg" alt="storie1" />
+                       
+                        <img id="interne_storie" src="images/miniatura-itbag.jpg" alt="storie2" />
+                       
+                        <img id="interne_storie" src="images/kiss-story.jpg" alt="storie3" />
+                        
+                        <img id="interne_storie" src="images/wedding-storys.jpg" alt="storie4" />
+                        
+                    </div>
+                       <div class="text">
+                    <p id="text">Trend Collection  
+                        <span style="color: red">NEW </span>
+                         
+                    </p> 
+                    <p id="text">It Bag Season</p> 
+                    <p id="text">Kiss Collection</p> 
+                    <p id="text">The Bright White</p> 
+                </div> 
+                </div>
+
+
+
+
+            </li>
+        </ul>
+    </div>
+</div>
+
   <!-- items Section  -->
   <div class="shop" id="shop">
     <div class="item">
@@ -211,7 +454,7 @@
     <!-- Total Price Section -->
     <div id="total-price">
       <p>Total Price:</p>
-      <input type="text" id="finalPrice" value="100" />
+      <input type="text" id="finalPrice" value="0" />
     </div>
   </div>
 </body>
